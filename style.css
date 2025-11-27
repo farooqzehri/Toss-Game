@@ -1,0 +1,76 @@
+/* Body styling */
+body {
+margin: 0;
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background: linear-gradient(145deg, #e6e2f0, #c3c0e8);
+color: #2c2c2c;
+text-align: center;
+}
+
+/* Heading 1 */
+h1 {
+font-size: 3rem;
+letter-spacing: 2px;
+margin-bottom: 2rem;
+color: #4a4a4a;
+text-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Buttons container */
+.buttons {
+display: flex;
+gap: 2rem;
+margin-bottom: 2rem;
+}
+
+/* Buttons styling - luxury glass effect */
+button {
+padding: 1rem 2.2rem;
+font-size: 1.2rem;
+font-weight: 600;
+border: none;
+border-radius: 15px;
+background: rgba(255, 255, 255, 0.25);
+color: #2c2c2c;
+backdrop-filter: blur(15px);
+box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+cursor: pointer;
+transition: all 0.3s ease;
+position: relative;
+overflow: hidden;
+}
+
+/* Button hover effect - subtle luxury glow */
+button:hover {
+background: rgba(255, 255, 255, 0.4);
+transform: translateY(-3px);
+box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+}
+
+/* Heading 2 */
+h2 {
+font-size: 2rem;
+margin-bottom: 2rem;
+color: #4a4a4a;
+text-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+/* Image styling - polished luxury effect */
+#img {
+width: 220px;
+height: 220px;
+border-radius: 25px;
+box-shadow: 0 8px 20px rgba(0,0,0,0.2), 0 0 15px rgba(0,0,0,0.05) inset;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#img:hover {
+transform: scale(1.08);
+box-shadow: 0 12px 30px rgba(0,0,0,0.25), 0 0 20px rgba(0,0,0,0.08) inset;
+}
+/* complete */
